@@ -30,8 +30,8 @@ const Details = () => {
   };
 
   const submitHandler = () => {
-    dispatch({ type: "UPDATE_REPORT", payload: inputs });
     dispatch({ type: "OFF_DETAILS"});
+    dispatch({ type: "UPDATE_REPORT", payload: inputs });
   };
 
   return (
